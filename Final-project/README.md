@@ -64,10 +64,7 @@ cd youtube-clone
 cd server
 npm install
 
-Create a .env file:
-MONGO_URI=mongodb://localhost:27017/youtube-clone
-JWT_SECRET=your_jwt_secret
-PORT=3000
+Now no need of a .env file
 
 Start the server:
 node index.js
